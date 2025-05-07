@@ -19,27 +19,6 @@ const events = [
     location: "École Nationale Supérieure d'Intelligence Artificielle, Algiers",
     image: "/ensia.jpg",
   },
-  {
-    id: 2,
-    title: "TEDxENSIA 2025",
-    date: "08-07-2025",
-    location: "École Nationale Supérieure d'Intelligence Artificielle, Algiers",
-    image: "/ensia.jpg",
-  },
-  {
-    id: 2,
-    title: "TEDxENSIA 2025",
-    date: "08-07-2025",
-    location: "École Nationale Supérieure d'Intelligence Artificielle, Algiers",
-    image: "/ensia.jpg",
-  },
-  {
-    id: 2,
-    title: "TEDxENSIA 2025",
-    date: "08-07-2025",
-    location: "École Nationale Supérieure d'Intelligence Artificielle, Algiers",
-    image: "/ensia.jpg",
-  },
 ];
 
 const UpcomingEvents = () => {

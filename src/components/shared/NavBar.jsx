@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import TedXLogo from "/TedXLogo.png";
@@ -38,7 +39,7 @@ const NavBar = () => {
         >
           <div className="container mx-auto flex items-center justify-between">
             {/* Logo */}
-            <img src={TedXLogo} alt="Logo" className="h-auto w-48 sm:w-60" />
+            <img src={TedXLogo} alt="Logo" className="mr-30 h-auto w-20 sm:w-30 " />
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-10 text-lg font-semibold -ml-30">

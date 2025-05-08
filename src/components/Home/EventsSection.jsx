@@ -76,7 +76,8 @@ const EventsSection = () => {
             Stay inspired, connect with changemakers, and discover the power of transformative ideas
           </p>
 
-          <motion.button
+          <motion.a
+            href="/events"
             variants={childVariants}
             initial={{
               boxShadow: "0 12px 30px rgba(244, 162, 97, 0.5)",
@@ -92,12 +93,12 @@ const EventsSection = () => {
             aria-label="View our events"
           >
             Our Events
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         {/* Image Part */}
         <motion.div
-          className="relative flex-1 max-w-sm mt-12 md:mt-0" // Adding margin top on mobile for spacing
+          className="relative flex-1 max-w-sm mt-12 md:mt-0" 
           variants={imageVariants}
           whileHover="hover"
         >

@@ -76,7 +76,7 @@ const Hero = () => {
 
         {/* Learn More Button */}
         <motion.a
-          href="/about"
+          href="/aboutus"
           className="inline-block bg-[#EFB87A] text-black px-6 py-2 sm:px-8 sm:py-3 rounded-full font-bold text-lg sm:text-xl cursor-pointer"
           initial={{
             boxShadow: "0px 8px 60px 8px rgba(239, 184, 122, 0.6)",
